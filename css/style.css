@@ -237,6 +237,7 @@ blockquote{
 .text-img div{
 	max-width: 303px;
 	margin-right:15px;
+
 }
 .text-img .photo{
 	margin-right:0;
@@ -353,6 +354,67 @@ blockquote{
 .footer_bottom a{
 	margin-left: 30px;
 }
+.comment{
+	border-top: 1px solid #ececec;
+	padding: 75px 15px 55px;
+
+}
+.comment .row div[class^="col-"]:first-child{
+	text-align: left;
+	padding-left: 0;
+	padding-bottom: 5px;
+	
+}
+.comment div[class^="col-"]:first-child h6{
+	margin-left: 0;
+	top: 0;
+	left: 109px;
+	position: absolute;
+}
+
+.form-com{
+	border: none;
+	margin: 0;
+	margin-top: 25px;
+
+
+}
+
+.form-art{
+	border-top: 1px solid #ececec;
+}
+.form-com img{
+	margin-left: 5px;
+}
+
+
+.text_form{
+
+	float: left;
+	max-width: 565px;
+	width: 100%;
+	height:50px; 
+
+}
+
+.media-list{
+	border-bottom:1px solid #ececec;
+	padding-bottom: 10px;
+}
+.media img{
+	margin-left: 10px;
+}
+.media-body h6 {
+ color: #a2a5ac;
+}
+
+.media-list li>ul{
+	margin-top: 5px;
+	margin-right:9%;
+	padding-right: 10px; 
+	border-right:1px solid #ececec;
+	border-bottom: none;
+}
 
 @media (max-width: 992px){
 
@@ -370,22 +432,30 @@ blockquote{
 .art,.pop-art{
 	margin-left: 0;
 }
-
-
+.footer_top{
+	padding-bottom: 20px;
 }
+
+
 
 @media (max-width: 768px){
 
- .h-nav-menu a:first-child{
+ .h-nav-menu a:first-child,#footer nav{
 		display: none;
 	}
 	.b-nav ul li a{
-	
 	   
     margin-left: 5px;
 
      
 }
+
+#footer .footer_title{
+	display: block;
+	text-align: center;
+	
+}
+
 
 }
 
