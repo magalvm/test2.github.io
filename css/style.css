@@ -59,6 +59,9 @@ a.btn-registr:hover:after,a.btn-registr:hover {
    padding: 0 5px;
    font-size: 20px;
 }	
+.dropdown-menu{
+  		left:-136px;
+  	}
 /* SEARCH */
 .h-search{
 	margin-top: 20px;
@@ -104,19 +107,25 @@ a.btn-registr:hover:after,a.btn-registr:hover {
 }
 /* menu header */
 .menu-bottom-header{
-	height: 36px;
-	padding-top: 5px;
+	
+	
 	background-color: #f7f5f4;
-	padding-right: 86px;
+	
+
+}
+.navbar{
+	height: 35px;
+	line-height: 35px;
+}
+.menu-bottom-header ul{
+	margin-right: 147px;
 }
 .menu-bottom-header a{
 	color: #000;
-	margin-right: 55px;
+	
+	/*margin-right: 55px;*/
 }
-.menu-bottom-header a:hover{
-	font-weight: bold;
-	text-decoration: none;
-}
+
 /*End Header*/
 
 /*content*/
@@ -188,12 +197,12 @@ a.func-btn{
 
 .form-art{
 	border-top: 1px solid #ececec;
-	padding-top: 40px;
+	padding-top: 30px;
 }
 
 .text_form{
-	text-align: right;
-	width: 531px;
+
+	width: 100%;
 	
 	height:50px; 
 }

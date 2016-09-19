@@ -7,13 +7,43 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+  	.dropdown-menu{
+  		left:-136px;
+  	}
+  	.navbar-toggle{
+		border: 1px solid #000;
+		height: 30px;
+		line-height: 30px;
+		
+	}
+	.navbar-toggle span{
+		top:-8px;
+	}
+	#navbar{
+		z-index: 9999;
+		background-color: #f7f5f4;
+		text-align: center;
+	}
+	
+	.menu-bottom-header ul li{
+		display: block;
+		padding-left: 15px;
+	}	
 
+	.menu-bottom-header ul{
+	margin-right: 0px;
+}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	.btn-menu{
+		text-align: center;
+	}
 	
-
+.menu-bottom-header ul{
+	margin-right: 80px;
+}
 .art-content{
 	padding-right: 0;
 }
@@ -26,13 +56,30 @@
 	.btn-menu,.footer_top{
 		text-align: center;
 	}
-	.menu-bottom-header{ 
-		padding-right: 20px;
+	.navbar-toggle{
+		border: 1px solid #000;
+		height: 30px;
+		line-height: 30px;
+		
+	}
+	.navbar-toggle span{
+		top:-8px;
+	}
+	#navbar{
+		z-index: 9999;
+		background-color: #f7f5f4;
 		text-align: center;
 	}
-	.menu-bottom-header a{ 
-		margin-right: 0px;
-	}
+	
+	.menu-bottom-header ul li{
+		display: block;
+		padding-left: 15px;
+	}	
+
+	.menu-bottom-header ul{
+	margin-right: 0px;
+}
+	
 	a.btn-registr{
 		width: 90px;
 	}
@@ -55,17 +102,19 @@
 	.footer_bottom a{
 		margin-left:0;
 	}
-	.text_form{
 	
-	width: 338px;
-	
- }
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 
-	
+
+ a.btn-registr{
+		width: 70px;
+	}
+	a.btn-registr:after{
+		width: 80px;
+	}
 }
 
 

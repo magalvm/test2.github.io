@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -49,8 +49,7 @@
                            <li><a href="#">Action</a></li>
                             <li><a href="#">Another action</a></li>
                            <li><a href="#">Something else here</a></li>
-                           
-                         </ul>     
+                           </ul>     
                          </li>
                         
                       
@@ -80,17 +79,31 @@
                      </div>
                 </div>
                </div>
+
                <div class="container">
-                 <nav class="menu-bottom-header">
-                   <ul class="list-inline text-right">
-                     <li><a href="#">Lorem.</a></li>
-                     <li><a href="#">Quas.</a></li>
-                     <li><a href="#">Quae!</a></li>
-                     <li><a href="#">Temporibus.</a></li>
-                     <li><a href="#">Unde?</a></li>
-                   </ul>
-                 </nav>
-               </div>
+
+        <nav class="navbar navbar-static-top menu-bottom-header">
+         
+            
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+               <span class="glyphicon glyphicon-menu-hamburger"></span>
+              </button>
+              
+           
+            <div id="navbar" class="navbar-collapse collapse navbar-right">
+              <ul class="nav navbar-nav menu-bottom">
+                <li class="active"><a href="#">Lorem.</a></li>
+                <li><a href="#">Lorem.</a></li>
+                <li><a href="#">Lorem.</a></li>
+                <li><a href="#">Lorem.</a></li>
+                <li><a href="#">Item</a></li>
+              </ul>
+            </div>
+          
+        </nav>
+
+      </div>
            
 
              </header>
@@ -152,7 +165,7 @@
             <p>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,</p>  
               <p>
-                <div class="img-social pull-left" >
+                <div class="img-social pull-left">
                   <img src="img/img3.png" class="img-responsive" alt="img">
                   <p>In enim justo <a href="">Lorem</a> quis enim. Donec pede justo, fringilla vel,</p>
                   <hr align="right">
@@ -227,18 +240,18 @@
       
                
   </div>
-  <div class="form-art clearfix">
-      <form class="form-com">
-        <div class="pull-left">
-        <textarea class="text_form" rows="3"></textarea>
-        </div>
-        <div class="pull-right">
-        <a href="#"><img src="img/avatar.png" class="pull-right"alt = "..."></a>
-        </div>
-      </form>
-  </div>
-   <div class="media">
+  
+   <div class="media form-art">
         <ul class="media-list">
+            <li class="media">
+              <div class="media-body">
+                <textarea class="text_form" rows="3"></textarea>
+
+              </div>
+              <div class="media-right">
+                <a href="#"><img src="img/avatar.png" class="pull-right"alt = "..."></a>
+              </div>
+            </li>
             <li class="media">
                <div class="media-body">
                 <a href="#" class="text-muted">sity</a> &#183; <a href="">Name</a>
@@ -428,7 +441,10 @@
 </div>
 </footer> 
 </div>
-
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>
